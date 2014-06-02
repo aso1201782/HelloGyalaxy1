@@ -8,41 +8,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.hellogalaxy.MainActivity$PlaceholderFragment" >
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="82dp"
-        android:layout_marginTop="24dp"
-        android:orientation="vertical" >
-
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <TableRow
-                android:id="@+id/tableRow1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-
-                <EditText
-                    android:id="@+id/edtFirst"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" >
-
-                    <requestFocus />
-                </EditText>
-
-            </TableRow>
-
-            <TableRow
-                android:id="@+id/tableRow2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
-            </TableRow>
-        </TableLayout>
-
-    </LinearLayout>
-
 </RelativeLayout>
